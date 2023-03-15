@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>JavaJam Coffee Bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="wrapper">
+    <header>
+      <h1><a href="index.html">JavaJam Coffee Bar</a></h1>
+    </header>
+    <nav>
+      <ul>
+        <li><b><a href="index.html">Home</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="music.html">Music</a></li>
+        <li><a href="jobs.html">Jobs</a></li>
+        <li><a href="gear.html">Gear</a></b></li>
+      </ul>
+    </nav>
+    <main>
+      <div id="herojobs">
+      </div>
+      <h2>Jobs at JavaJam</h2>
+
+      <p>Want to work at at JavaJam? Fill out the form below to start your application. All information is required.</p>
+      <form method="post" action="https://webdevbasics.net/scripts/javajam8.php">
+        <!-- label for ="id" -->
+        <label for="myName">Name:</label>
+        <input id="myName" placeholder="Name Please" type="text" required>
+        <label for id="myEmail">Email:</label>
+        <!-- email fields look for @ and dot domain on the end -->
+        <input id="myEmail" placeholder="Email Please" type="email" required>
+        <label for="startDate">Start Date</label>
+        <input id="startDate" placeholder="mm/dd/yyyy" required>
+        <!-- <datalist id="referral">
+            <option value="Google">
+            <option value="Facebook">
+            <option value = "Clash of Clans">
+            <option value = "Snapchat">
+        </datalist> -->
+        <label for="experience">Experience:</label>
+        <textarea id="experience" required rows=2 cols=20 type="text"></textarea>
+        <button id="mySubmit">Send Now</button>
+   </form>
+    <footer>
+      Copyright Ⓒ 2020 JavaJam Coffee Bar<br>
+      <i><a href="mailto:charity.baylor@evsck12.com">charity.baylor@evsck12.com</a></i>
+    </footer>
+  </div>
+</body>
+
+</html>
